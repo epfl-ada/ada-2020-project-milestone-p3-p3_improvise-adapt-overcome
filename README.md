@@ -21,9 +21,10 @@ Both datasets use the same notation for London ward areas. The happiness dataset
 ### Methods
 Data wrangling : clean up the happiness dataset to be able to work with and import it correctly to the Python framework.<br/>
 Data collection : Merge the two datasets (Tesco + happiness)<br/>
-Establish what is a healthy diet according to the WHO and attribute a “heatlhy” score to each geographic area.<br/>
-Data analysis: Perform two correlations: one between the different nutrients and entropy with the happiness score and another one between the health score and the happiness score. This will allow us to see if the happiness score depends on a healthy diet or on a specific nutrient.<br/>
-We will then confirm our results by fitting different types of regression (linear, gaussian regression,...) and see if there is a correlation between the ones that have the highest correlation with happiness  and the happiness score.
+Establish what is a healthy diet and attribute a “heatlhy” score to each geographic area.<br/>
+Data analysis: - Spearman rank correlations between well-being and healthy scores, nutrients and food categories.
+               - Regression to predict well-being as a function of healthy scores, nutrients and food categories.
+               - Train a random forest classifier to predict happy and unhappy areas.
 
 ### Proposed timeline
 Week1: merge datasets and find characteristics of a healthy diet<br/>
